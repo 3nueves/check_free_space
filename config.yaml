@@ -1,0 +1,14 @@
+- partitions: "/"
+  threshold: 10
+  files: 
+    - name: "syslog"
+      path: "/var/log"
+    - name: "syslog.1"
+      path: "/var/log"
+    - name: "cloud-init.log.1"
+      path: "/var/log"
+- partitions: "/dev/mapper/vg1-lv1"
+  threshold: 100
+  files: 
+    - name: "syslog.log"
+      path: "/home/ubuntu/part1"

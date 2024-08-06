@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "check-free-space-disk"
+version = "0.1.0"
+description = "check size partition"
+authors = ["David Moya <3nueves@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyyaml = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
